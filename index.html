@@ -148,9 +148,10 @@ box-shadow: 0 0 20px 5px rgba(224, 123, 120, 0.35);
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
+    body { align-items: center;}
     .login-container { padding: 18px; }
     .login-card { padding: 48px 28px 28px 28px; border-radius: 22px; }
-    .logo-wrapper { top: -32px; }
+    .logo-wrapper { top: -20px; }
     .logo-circle { width: 92px; height: 92px; }
     h1 { font-size: 20px; }
     .subtitle { font-size: 13px; margin-bottom: 20px; }
@@ -160,10 +161,10 @@ box-shadow: 0 0 20px 5px rgba(224, 123, 120, 0.35);
 }
 
 @media (max-width: 480px) {
-    body { align-items: flex-start; padding-top: 36px; }
-    .login-container { max-width: 420px; padding: 12px; }
+    body { align-items: center; }
+    .login-container { max-width: 420px; padding: 10%; }
     .login-card { padding: 36px 18px 22px 18px; border-radius: 16px; }
-    .logo-wrapper { top: -30px; }
+    .logo-wrapper { top: 4px; }
     .logo-circle { width: 84px; height: 84px; }
     h1 { font-size: 18px; }
     .subtitle { font-size: 13px; }
@@ -256,4 +257,5 @@ box-shadow: 0 0 20px 5px rgba(224, 123, 120, 0.35);
         })();
     </script>
 </body>
+
 </html>
