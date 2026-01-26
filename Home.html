@@ -14,7 +14,112 @@
       padding: 0;
       box-sizing: border-box;
       font-family: Arial, Helvetica, sans-serif;
-      
+      @media (max-width: 360px) {
+      body {
+        padding-top: 0px;
+      }
+      .top-bar {
+        padding: 5px 8px;
+        height: 50px;
+        align-items: center;
+        justify-items: space-between;
+      }
+
+      .logo img {
+        max-height: 50px;
+        width: 50px;
+      }
+
+      .search-box {
+        max-width: 120px;
+        font-size: 9px;
+        text-align: center;
+        position: fixed;
+        top: 15px;
+        left: 5px;
+      }
+
+      .search-box input {
+        height: 20px;
+        font-size: 9px;
+      }
+      .search-box input::placeholder {
+        height: 20px;
+        font-size: 8px;
+      }
+      .search-box i {
+        top: 45%;
+      }
+      .search-suggestions .suggestion-item{
+        font-size: 7px;
+      }
+     .search-suggestions{
+      min-width: 100px;
+      max-height: 50px;
+     } 
+      .icons {
+        gap: 2px;
+        display: flex;
+        flex-direction: row;
+        width: 65px;
+        position: fixed;
+        top: 15px;
+        right: 40px;
+
+      }
+.profile-dropdown button {
+    gap: 0px;
+}
+.profile-dropdown .profile-item{
+    font-size: 7px;
+}
+.profile-dropdown .profile-dropdown-content{
+  min-width: 70px;}
+      .icon-item {
+        font-size: 7px;
+      }
+
+      .icon-item i {
+    font-size: 7px;
+}
+      #account-name {
+        font-size: 7px;
+      }
+
+      .nav {
+        padding: 5px 8px;
+      }
+
+      .nav a {
+        font-size: 10px;
+        padding: 7px 0;
+      }
+
+      .category-section h2 {
+        font-size: 16px;
+        margin-top: 0px;
+      }
+
+      .Product-card {
+        width: 80%;
+        max-width: 200px;
+      }
+
+      .Product-card img {
+        height: 160px;
+        width: 200px;
+      }
+
+      .caption {
+        font-size: 12px;
+      }
+
+      .sub-categories,
+      .sub-categories1 {
+        font-size: 16px;
+        height: 36px;
+      }
+    }
     }
     body{
      overflow-x: hidden;
@@ -1004,4 +1109,5 @@ window.onclick = function(event) {
         }
     }
 }
+
 </script>
