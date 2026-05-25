@@ -30,10 +30,10 @@ Add more interactive features using JavaScript
 Improve responsiveness and design
 Integrate backend functionality in future versions
 
-Authors/ Team Members:
-TAYYBA BASHIR,
-GUL E NARGIS,
-M. MAAZ SHAH.
+Team Members:
+Muhammad Maaz Shah (Team Lead), 
+Tayaba Bashir,
+Gul E Nargis.
 
 License
 
